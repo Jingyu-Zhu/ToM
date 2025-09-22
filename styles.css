@@ -523,12 +523,50 @@ blockquote {
     background: #f8fafc;
     border-radius: 15px;
     padding: 3rem 2rem;
-    text-align: center;
+    text-align: left;
 }
 
 .ribbon-content .ribbon-icon {
     font-size: 3rem;
     margin-bottom: 1rem;
+}
+
+.content-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    margin: 1rem 0;
+}
+
+.image-caption {
+    text-align: center;
+    font-style: italic;
+    color: #8B5CF6;
+    font-weight: 500;
+    margin-top: 0.5rem;
+}
+
+.ribbon-image {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.shirt-design-image {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.caregiver-images {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.caregiver-image {
+    text-align: center;
 }
 
 .info-grid {
@@ -559,6 +597,7 @@ blockquote {
     border-left: 4px solid #ef4444;
     padding: 2rem;
     border-radius: 0 10px 10px 0;
+    margin: 2rem 0;
 }
 
 .dates-section {
