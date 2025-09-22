@@ -405,26 +405,10 @@ blockquote {
 }
 
 .footer-content {
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    gap: 3rem;
-    margin-bottom: 3rem;
-}
-
-.footer-nav {
     display: flex;
-    flex-direction: column;
-    gap: 1rem;
-}
-
-.footer-nav a {
-    color: #cbd5e1;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-.footer-nav a:hover {
-    color: #8B5CF6;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 3rem;
 }
 
 .footer-info h3 {
@@ -463,12 +447,14 @@ blockquote {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    text-align: right;
 }
 
 .footer-legal a {
-    color: #cbd5e1;
+    color: white;
     text-decoration: none;
     transition: color 0.3s ease;
+    font-size: 0.9rem;
 }
 
 .footer-legal a:hover {
@@ -485,6 +471,7 @@ blockquote {
 .newsletter h4 {
     margin-bottom: 1.5rem;
     color: #8B5CF6;
+    font-size: 1.1rem;
 }
 
 .newsletter-form {
