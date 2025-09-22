@@ -12,11 +12,31 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
+    <!-- Top Bar -->
+    <div class="top-bar"></div>
+    
     <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
             <div class="nav-logo">
-                <a href="index.html"><h2>Threads of Minds</h2></a>
+                <a href="index.html" style="display: flex; align-items: center; gap: 15px; text-decoration: none;">
+                    <div class="logo-icon">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <!-- Left half with threads pattern -->
+                            <path d="M20 5C25 5 30 8 30 15C30 20 28 22 25 24C22 26 20 28 20 30C20 28 18 26 15 24C12 22 10 20 10 15C10 8 15 5 20 5Z" fill="#8B5CF6"/>
+                            <!-- Right half with brain pattern -->
+                            <path d="M20 5C25 5 30 8 30 15C30 20 28 22 25 24C22 26 20 28 20 30C20 28 18 26 15 24C12 22 10 20 10 15C10 8 15 5 20 5Z" fill="#8B5CF6" opacity="0.7"/>
+                            <!-- Thread lines -->
+                            <path d="M15 10L18 8L21 10L24 8L27 10" stroke="#A78BFA" stroke-width="1.5" fill="none"/>
+                            <path d="M15 15L18 13L21 15L24 13L27 15" stroke="#A78BFA" stroke-width="1.5" fill="none"/>
+                            <path d="M15 20L18 18L21 20L24 18L27 20" stroke="#A78BFA" stroke-width="1.5" fill="none"/>
+                        </svg>
+                    </div>
+                    <div class="logo-text">
+                        <h1>THREADS OF MINDS</h1>
+                        <p>ALZHEIMER'S AWARENESS</p>
+                    </div>
+                </a>
             </div>
             <div class="nav-menu" id="nav-menu">
                 <a href="index.html" class="nav-link">Home</a>
