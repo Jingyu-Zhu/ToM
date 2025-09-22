@@ -99,13 +99,13 @@ body {
     right: 0;
     height: 2px;
     background: #A78BFA;
-    transform: scaleX(0);
-    transition: transform 0.3s ease;
+    transform: scaleX(1);
+    transition: all 0.3s ease;
 }
 
-.nav-link:hover::before,
-.nav-link.active::before {
-    transform: scaleX(1);
+.nav-link:hover::before {
+    background: #8B5CF6;
+    height: 3px;
 }
 
 .nav-link:hover {
